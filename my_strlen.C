@@ -1,4 +1,5 @@
-int my_strlen(const char *s)
+int
+my_strlen(const char *s)
 {
 	int size_t = 0;
 
