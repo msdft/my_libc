@@ -10,6 +10,12 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	ar -rc $(NAME) $(OBJS)
 
+format:
+	clang-format -a *.c *h	
+
+format:
+	clang-format --dry-run --Werror *.c *.h
+
 clean:
 	rm -f $(OBJS)
 
