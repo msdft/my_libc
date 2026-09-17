@@ -12,4 +12,4 @@ my_strlen(const char *str)
 		}
 	}
 	return length;
-}
+};
