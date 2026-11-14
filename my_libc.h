@@ -11,4 +11,6 @@ char *my_strncpy(char *dst, const char *src, size_t n);
 
 char *my_strcat(char *dst, const char *src);
 
+char *my_strncat(char *dst, const char *src, size_t n);
+
 #endif
