@@ -1,4 +1,4 @@
-#include <stddef.h>
+#include "my_libc.h"
 
 char *
 my_strncpy(char *dst, const char *src, size_t n)
